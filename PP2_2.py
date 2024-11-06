@@ -5,23 +5,23 @@ last edited on oct 15
 '''
 def q1(): 
   #Write Assignment code here
-  ans = input("Input an integer: ")
-  if int(ans) == 5: 
+  ans1 = input("Input an integer: ")
+  if int(ans1) == 5: 
     print("The number is Five")
   else:
     print("The number is not Five")
 def q2(): 
   #Write Assignment code here
   ans2 = input("Input a number: ")
-  if bool(ans2) < 0: 
-    print("Negative")
-  else:
+  if float(ans2) < 0: 
     print("Positive")
+  else:
+    print("Negative")
 def q3():
   #Write Assignment code here
   ans3 = input("Input an integer: ")
-  ans4 = int(ans3) % 2
-  if ans4 == 0:
+  num = int(ans3) % 2
+  if num == 0:
     print("Even")
   else:
     print("Odd")
