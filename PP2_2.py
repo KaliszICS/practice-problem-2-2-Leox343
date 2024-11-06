@@ -14,9 +14,9 @@ def q2():
   #Write Assignment code here
   ans2 = input("Input a number: ")
   if float(ans2) < 0: 
-    print("Positive")
-  else:
     print("Negative")
+  else:
+    print("Positive")
 def q3():
   #Write Assignment code here
   ans3 = input("Input an integer: ")
