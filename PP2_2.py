@@ -33,9 +33,6 @@ def q4():
   else:
     print("The word is not Hello")
   
-
-
-
 #Do not alter the following code
 #Comment out the following code when running your tests
 
